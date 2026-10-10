@@ -1,4 +1,4 @@
-# Natural Frequency of a Fixed Circular Cantilever Column
+# Phase A:Natural Frequency of a Fixed Circular Cantilever Column
 
 A Python study of how geometry controls the first natural frequency of an
 upright, fixed-base circular tube (Euler-Bernoulli beam theory), validated
