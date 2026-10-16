@@ -1,1 +1,24 @@
-Phase A-2: Realistic monopile on soil springs. I extended the validated beam model to a realistic offshore wind foundation: a pile in the seabed, a transition piece, a tapered tower and a nacelle and rotor. Soil is modelled with distributed springs and the submerged part carries added water mass. I computed the first natural frequency and mode shapes for four installation stages. The frequency drops from 1.22 Hz (bare pile) to 0.26 Hz (full turbine), and soft soil and surrounding water lower it further, mostly for the bare pile. The tower standing without the rotor is the stage to check for wind-induced vibration in Phase B. All values are illustrative.
+## Phase A-2: Realistic monopile on soil springs
+
+Extends the validated beam model to a realistic offshore wind foundation: pile in the
+seabed, transition piece, tapered tower and nacelle/rotor. Soil is modelled with
+distributed springs (k = n_h x depth) and the submerged part carries hydrodynamic added mass.
+The first natural frequency and mode shapes are computed for four installation stages.
+
+| Stage | f1 (Hz), medium soil |
+|---|---|
+| Bare monopile | 1.22 |
+| + Transition piece | 0.86 |
+| + Tower | 0.51 |
+| + Nacelle and rotor | 0.26 |
+
+**Key findings**
+- Every installed part lowers the natural frequency.
+- Soft soil and the water around the pile lower it further, mostly for the bare pile.
+- The tower standing without the rotor is the stage to check for wind-induced vibration (VIV) in Phase B.
+
+All values are illustrative, not site data.
+
+```
+python src/06_realistic_monopile_stages.py
+```
