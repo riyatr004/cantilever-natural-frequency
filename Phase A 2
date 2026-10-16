@@ -1,16 +1,1 @@
-README.md
-requirements.txt
-src/
-  1.mode values based on boundary condtion.py   (your existing scripts; ideally rename them without spaces or commas)
-  ...
-  05_L_D_t_vs_f.py
-  06_realistic_monopile_stages.py               (new)
-figures/
-  L_D_t_vs_f.png                                (your existing "Effect of L,D,t on f.png", renamed)
-results/
-  mode_shapes_stages.png                        (new)
-  f1_vs_soil_stiffness.png                      (new)
-  frequency_table.csv                           (new)
-reports/
-  Phase_A_Results_Monopile_Frequency.pdf        (existing)
-  Phase_A2_Results_Realistic_Monopile.pdf       (new)
+Phase A-2: Realistic monopile on soil springs. I extended the validated beam model to a realistic offshore wind foundation: a pile in the seabed, a transition piece, a tapered tower and a nacelle and rotor. Soil is modelled with distributed springs and the submerged part carries added water mass. I computed the first natural frequency and mode shapes for four installation stages. The frequency drops from 1.22 Hz (bare pile) to 0.26 Hz (full turbine), and soft soil and surrounding water lower it further, mostly for the bare pile. The tower standing without the rotor is the stage to check for wind-induced vibration in Phase B. All values are illustrative.
