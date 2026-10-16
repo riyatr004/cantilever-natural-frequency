@@ -1,0 +1,16 @@
+README.md
+requirements.txt
+src/
+  1.mode values based on boundary condtion.py   (your existing scripts; ideally rename them without spaces or commas)
+  ...
+  05_L_D_t_vs_f.py
+  06_realistic_monopile_stages.py               (new)
+figures/
+  L_D_t_vs_f.png                                (your existing "Effect of L,D,t on f.png", renamed)
+results/
+  mode_shapes_stages.png                        (new)
+  f1_vs_soil_stiffness.png                      (new)
+  frequency_table.csv                           (new)
+reports/
+  Phase_A_Results_Monopile_Frequency.pdf        (existing)
+  Phase_A2_Results_Realistic_Monopile.pdf       (new)
